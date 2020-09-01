@@ -2,13 +2,13 @@
 // var hamburger = $(".hamburger-menu")
 $(".fa-bars").click(
   function() {
-    $(".hamburger-menu").css("display", "block")
+    $('.hamburger-menu').addClass('active');
 
 }
 )
 $(".fa-times").click(
   function() {
-    $(".hamburger-menu").css("display", "none")
+    $('.hamburger-menu').toggleClass('active');
 
 }
 )
